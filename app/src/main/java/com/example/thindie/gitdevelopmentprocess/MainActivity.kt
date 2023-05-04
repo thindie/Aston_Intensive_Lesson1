@@ -48,7 +48,7 @@ class MainActivity : ComponentActivity() {
                     ) {
                         Button(onClick = changeButtonClickedStatus) {
                             if (isButtonClicked) {
-                                toastInvokerHolder("message")
+                                toastInvokerHolder()
                                 changeButtonClickedStatus()
                             }
                             Text(text = stringResource(id = R.string.common_button_annotation))
