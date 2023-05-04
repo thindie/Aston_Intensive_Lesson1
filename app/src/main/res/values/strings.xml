@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LessonOneGIT</string>
+    <string name="common_button_annotation">"Click me"</string>
+    <string name="sherlock"> "You are the Best! :) Have a nice day!" </string>
+</resources>
