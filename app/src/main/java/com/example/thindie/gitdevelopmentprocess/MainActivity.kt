@@ -78,7 +78,7 @@ private sealed class SealedClass {
         }
     }
 }
-/*
+
 
 @Suppress("SwallowedException", "NestedBlockDepth")
 @Composable
@@ -110,7 +110,7 @@ private inline operator fun <reified T : SealedClass> T?.invoke() {
         else -> {}
     }
 }
-*/
+
 
 @Composable
 private fun runScopeFunWithoutContextObject(foo: @Composable () -> String) = run {
